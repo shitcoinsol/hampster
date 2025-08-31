@@ -13,12 +13,14 @@ h2 { font-family: "Times New Roman", Times, serif; font-weight: normal; font-siz
   display: inline-block;
   font-family: "Times New Roman", Times, serif;
   font-size: 16px;
-  margin-bottom: 18px;
+  margin-bottom: 12px;
   cursor: pointer;
   user-select: none;
   border-bottom: 1px dotted #0000;
 }
 .ca:focus { outline: none; border-bottom-color: #000; }
+
+.yt-video { display: block; margin: 0 auto 24px; max-width: 100%; height: auto; }
 
 .dance { display: block; }
 .row-outer { width: 100%; display: block; }
