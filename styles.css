@@ -1,0 +1,30 @@
+html, body { background: #ffffff; color: #000; margin: 0; padding: 0; overflow-x: hidden; }
+.page { max-width: 100%; margin: 0 auto; text-align: center; }
+
+.corner-links { position: fixed; top: 10px; left: 10px; display: flex; flex-direction: column; gap: 6px; z-index: 10; }
+.corner-link { font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #000; text-decoration: underline; }
+
+/* Titles */
+h1 { font-family: "Times New Roman", Times, serif; font-size: 42px; margin: 48px 0 6px; }
+h2 { font-family: "Times New Roman", Times, serif; font-weight: normal; font-size: 18px; margin: 0 0 6px; }
+
+/* CA button */
+.ca { 
+  display: inline-block;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  margin-bottom: 18px;
+  cursor: pointer;
+  user-select: none;
+  border-bottom: 1px dotted #0000;
+}
+.ca:focus { outline: none; border-bottom-color: #000; }
+
+.dance { display: block; }
+.row-outer { width: 100%; display: block; }
+.row { display: inline-flex; justify-content: flex-start; flex-wrap: nowrap; margin: 10px 0; }
+
+.ham1 { height: 80px; margin: 0; image-rendering: pixelated; }
+.ham.ham2, .ham.ham3, .ham.ham4 { height: 72px; margin: 0; image-rendering: pixelated; }
+
+.scale-row { transform-origin: top left; will-change: transform, width; }
