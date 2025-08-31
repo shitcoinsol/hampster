@@ -4,7 +4,7 @@
     navigator.clipboard.writeText(text).then(function(){
       var ca = document.getElementById('ca');
       var old = ca.textContent;
-      ca.textContent = 'copied!;
+      ca.textContent = 'copied! ' ;
       setTimeout(function(){ ca.innerHTML = 'ca:<span id="ca-text">' + text + '</span>'; }, 1200);
     }).catch(function(){
       var text = document.getElementById('ca-text').textContent.trim();
